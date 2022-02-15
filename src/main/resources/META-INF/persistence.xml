@@ -1,0 +1,35 @@
+<persistence
+        version="2.1"
+        xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+                            http://xmlns.jcp.org/xml/ns/persistence_2_1.xsd">
+    <persistence-unit name="music-store">
+
+        <class>lordgarrish.business.Cart</class>
+        <class>lordgarrish.business.MusicAlbum</class>
+        <class>lordgarrish.business.CreditCard</class>
+        <class>lordgarrish.business.Customer</class>
+        <class>lordgarrish.business.Order</class>
+        <class>lordgarrish.business.Address</class>
+        <class>lordgarrish.business.LineItem</class>
+
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/music_store_jpa"/>
+            <property name="javax.persistence.jdbc.user" value="YOUR_LOGIN" />
+            <property name="javax.persistence.jdbc.password" value="YOUR_PASSWORD" />
+            <property
+                    name="javax.persistence.schema-generation.database.action"
+                    value="drop-and-create"/>
+            <!--
+            <property name="hibernate.show_sql" value="true"/>
+            -->
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.use_sql_comments" value="true"/>
+        </properties>
+
+    </persistence-unit>
+</persistence>
