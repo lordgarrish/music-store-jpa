@@ -31,21 +31,21 @@ public class OrderDao implements AbstractDao<Order, String> {
 
     @Override
     public Order update(Order entity) throws Exception {
-        return null;
+        throw new UnsupportedOperationException("Not implemented");
     }
 
     @Override
     public boolean delete(String id) throws Exception {
-        return false;
+        throw new UnsupportedOperationException("Not implemented");
     }
 
     @Override
     public List<Order> getAll() throws Exception {
-        return null;
+        throw new UnsupportedOperationException("Not implemented");
     }
 
     @Override
     public Order getById(String id) throws Exception {
-        return null;
+        throw new UnsupportedOperationException("Not implemented");
     }
 }

@@ -12,17 +12,17 @@ public class MusicAlbumDao implements AbstractDao<MusicAlbum, String> {
 
     @Override
     public boolean save(MusicAlbum entity) throws Exception {
-        return false;
+        throw new UnsupportedOperationException("Not implemented");
     }
 
     @Override
     public MusicAlbum update(MusicAlbum entity) throws Exception {
-        return null;
+        throw new UnsupportedOperationException("Not implemented");
     }
 
     @Override
     public boolean delete(String id) throws Exception {
-        return false;
+        throw new UnsupportedOperationException("Not implemented");
     }
 
     @Override
