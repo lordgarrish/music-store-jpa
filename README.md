@@ -1,6 +1,6 @@
 # music-store-jpa
 ### Description
-Music store website made with JavaEE, Servlets, JSP and JPA (Hibernate).
+Music store website made with Java 17, Servlets, JSP, JPA (Hibernate) and MySQL.
 
 The Music Store website is a website for a fictional record company "Music Against Humanity". Although this isn't a real website, it illustrates
 the skills that I've learned during studying Java Servlets and JSP API, that can be helpful for developing a real site.
@@ -52,4 +52,7 @@ catalina.bat run
 ```
 catalina.sh run
 ```
-3. Go to http://localhost:8080/
+3. Go to 
+```
+http://localhost:8080/
+```
