@@ -1,9 +1,8 @@
 # music-store-jpa
 ### Description
-Music store website made with Java 17, Servlets, JSP, JPA (Hibernate) and MySQL.
+Music store website made with Java 17, Servlet API, JSP, JPA (Hibernate) and MySQL.
 
-The Music Store website is a website for a fictional record company "Music Against Humanity". Although this isn't a real website, it illustrates
-the skills that I've learned during studying Java Servlets and JSP API, that can be helpful for developing a real site.
+This is a website for a fictional record store called "Music Against Humanity". 
 
 Music Store website consists of 4 main sections: Home page, Catalog, News (work in progress) and Cart.<br>
 <br>
